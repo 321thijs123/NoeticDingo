@@ -1,5 +1,5 @@
-# NoeticDingo
-Dingo ROS packages for ROS Noetic
+# Noetic Dingo
+Dingo ROS packages with all required components for it to work on ROS noetic
 
 ## Installation
 ### Clone this repository
