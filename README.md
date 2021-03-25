@@ -25,12 +25,12 @@ cd ~
 sudo rm -r temp
 ```
 
-### System dependencies
+### System Dependencies
 ```
 sudo apt-get install libspnav-dev
 sudo apt-get install libusb-dev
 sudo apt-get install libbluetooth-dev
-sudo apt-get install libcwiid1 libcwiid1-dev
+sudo apt-get install libcwiid1 libcwiid-dev
 sudo apt-get install geographiclib
 ```
 
