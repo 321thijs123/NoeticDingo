@@ -38,5 +38,10 @@ sudo apt-get install geographiclib
 ```
 sudo apt-get install ros-noetic-unique-id
 sudo apt-get install ros-noetic-uuid-msgs
+```
 
+### Compile packages
+```
+cd ~/catkin_ws
+catkin_make
 ```
