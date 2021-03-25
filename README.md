@@ -1,2 +1,24 @@
 # NoeticDingo
 Dingo ROS packages for ROS Noetic
+
+## Installation
+### Geographic lib installation
+```
+wget https://sourceforge.net/projects/geographiclib/files/distrib/GeographicLib-1.51.tar.gz
+tar xfpz GeographicLib-1.51.tar.gz
+cd GeographicLib-1.51
+mkdir BUILD
+cd BUILD
+cmake ..
+make
+make test
+make install
+```
+
+### System dependencies
+```
+sudo apt-get install libspnav-dev
+sudo apt-get install libusb-dev
+sudo apt-get install libbluetooth-dev
+sudo apt-get install libcwiid1 libcwiid1-dev
+```
