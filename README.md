@@ -31,6 +31,7 @@ sudo apt-get install libspnav-dev
 sudo apt-get install libusb-dev
 sudo apt-get install libbluetooth-dev
 sudo apt-get install libcwiid1 libcwiid-dev
+sudo apt-get install libsdl-image1.2-dev
 ```
 
 ### ROS Dependencies
