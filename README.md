@@ -20,7 +20,7 @@ cd BUILD
 cmake ..
 make
 make test
-make install
+sudo make install
 cd ~
 sudo rm -r temp
 ```
