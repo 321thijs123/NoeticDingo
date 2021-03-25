@@ -4,6 +4,8 @@ Dingo ROS packages for ROS Noetic
 ## Installation
 ### Geographic lib installation
 ```
+mkdir ~/temp
+cd ~/temp
 wget https://sourceforge.net/projects/geographiclib/files/distrib/GeographicLib-1.51.tar.gz
 tar xfpz GeographicLib-1.51.tar.gz
 cd GeographicLib-1.51
@@ -13,6 +15,8 @@ cmake ..
 make
 make test
 make install
+cd ~
+sudo rm -r temp
 ```
 
 ### System dependencies
