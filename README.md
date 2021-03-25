@@ -2,6 +2,12 @@
 Dingo ROS packages for ROS Noetic
 
 ## Installation
+### Clone this repository
+```
+cd ~/catkin_ws/src
+git clone https://github.com/321thijs123/noetic_dingo
+```
+
 ### Geographic lib installation
 ```
 mkdir ~/temp
