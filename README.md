@@ -45,3 +45,11 @@ sudo apt-get install ros-noetic-uuid-msgs
 cd ~/catkin_ws
 catkin_make
 ```
+
+## Usage
+### Empty world with lidar
+```
+source ~/catkin_ws/devel/setup.bash
+roslaunch dingo_gazebo empty_world.launch config:=front_laser
+roslaunch dingo_viz view_robot.launch
+```
