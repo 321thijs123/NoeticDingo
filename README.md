@@ -27,17 +27,12 @@ sudo rm -r temp
 
 ### System Dependencies
 ```
-sudo apt-get install libspnav-dev
-sudo apt-get install libusb-dev
-sudo apt-get install libbluetooth-dev
-sudo apt-get install libcwiid1 libcwiid-dev
-sudo apt-get install libsdl-image1.2-dev
+sudo apt-get install libspnav-dev libusb-dev libbluetooth-dev libcwiid1 libcwiid-dev libsdl-image1.2-dev
 ```
 
 ### ROS Dependencies
 ```
-sudo apt-get install ros-noetic-unique-id
-sudo apt-get install ros-noetic-uuid-msgs
+sudo apt-get install ros-noetic-unique-id ros-noetic-uuid-msgs
 ```
 
 ### Compile packages
