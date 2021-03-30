@@ -13,6 +13,7 @@ git clone https://github.com/321thijs123/noetic_dingo
 ./install.sh
 ```
 
+
 ### *Manual dependencies installation*
 *You do not need to perform manual installation if you have already run `install.sh`.*
 
