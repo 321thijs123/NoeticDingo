@@ -10,6 +10,7 @@ git clone https://github.com/321thijs123/noetic_dingo
 
 ### Install dependencies
 ```
+cd ~/catkin_ws/src/noetic_dingo
 ./install.sh
 ```
 
