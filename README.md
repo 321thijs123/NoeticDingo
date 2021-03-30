@@ -8,7 +8,15 @@ cd ~/catkin_ws/src
 git clone https://github.com/321thijs123/noetic_dingo
 ```
 
-### Geographic lib installation
+### Automatic dependencies installation
+```
+./install.sh
+```
+
+### Manual dependencies installation
+Do not perform manual installation if you have already performed automatic installation.
+
+#### Geographic lib installation
 ```
 mkdir ~/temp
 cd ~/temp
@@ -25,17 +33,17 @@ cd ~
 sudo rm -r temp
 ```
 
-### System Dependencies
+#### System Dependencies
 ```
 sudo apt-get install libspnav-dev libusb-dev libbluetooth-dev libcwiid1 libcwiid-dev libsdl-image1.2-dev
 ```
 
-### ROS Dependencies
+#### ROS Dependencies
 ```
 sudo apt-get install ros-noetic-unique-id ros-noetic-uuid-msgs
 ```
 
-### Compile packages
+#### Compile packages
 ```
 cd ~/catkin_ws
 catkin_make
